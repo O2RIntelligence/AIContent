@@ -548,11 +548,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Tasks\\2.NET Article Generator\\csharp\\ArticleGenerator\\ArticleGenerator.csproj",
+      "projectUniqueName": "F:\\Tasks\\2.NET Article Generator\\csharp\\ArticleGenerator2\\ArticleGenerator.csproj",
       "projectName": "ArticleGenerator",
-      "projectPath": "F:\\Tasks\\2.NET Article Generator\\csharp\\ArticleGenerator\\ArticleGenerator.csproj",
+      "projectPath": "F:\\Tasks\\2.NET Article Generator\\csharp\\ArticleGenerator2\\ArticleGenerator.csproj",
       "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
-      "outputPath": "F:\\Tasks\\2.NET Article Generator\\csharp\\ArticleGenerator\\obj\\",
+      "outputPath": "F:\\Tasks\\2.NET Article Generator\\csharp\\ArticleGenerator2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",

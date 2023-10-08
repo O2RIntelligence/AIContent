@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "akrdrInlaLIyT3SVrKgnzuQ539Oqz8HOAQLAhePFtW6OHaBed77exLLSOv76u6JpNOWWl5FdXO9W5ilma5wdEQ==",
+  "dgSpecHash": "5wiFXin6afxbz/cliEaUKU7I1xLLwraGSKIJgoB1PGTWucutBE4TXUmCrOlg3Z64gLgnzPpYzcvnouY7T++nKQ==",
   "success": true,
-  "projectFilePath": "F:\\Tasks\\2.NET Article Generator\\csharp\\ArticleGenerator\\ArticleGenerator.csproj",
+  "projectFilePath": "F:\\Tasks\\2.NET Article Generator\\csharp\\ArticleGenerator2\\ArticleGenerator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kevin\\.nuget\\packages\\google.apis\\1.62.0\\google.apis.1.62.0.nupkg.sha512",
     "C:\\Users\\Kevin\\.nuget\\packages\\google.apis.auth\\1.62.0\\google.apis.auth.1.62.0.nupkg.sha512",
