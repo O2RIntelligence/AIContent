@@ -65,9 +65,9 @@ namespace YourNamespace
     }
     public class AiContentGenerator
     {
-        private static readonly string OPENAI_API_KEY = "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";
-        private const string GOOGLE_API_KEY = "AIzaSyDX-uzzVnYGQSIuvSncPDVf9jLTvRNLyp0";
-        private const string SEARCH_ENGINE_ID = "a7ad4385f2b464df3";
+        private static readonly string OPENAI_API_KEY = "";
+        private const string GOOGLE_API_KEY = "";
+        private const string SEARCH_ENGINE_ID = "";
 
         public static async Task<string> SearchYoutubeVideo(string query, int maxResults = 1)
         {
@@ -367,7 +367,7 @@ namespace YourNamespace
             //    //},
             //    //new Article
             //    //{
-            //    //    Title = "Immediate relief is needed.’ California GOP lawmakers call for suspension of gas tax",
+            //    //    Title = "Immediate relief is needed.ï¿½ California GOP lawmakers call for suspension of gas tax",
             //    //    Link = "https://www.sacbee.com/news/politics-government/capitol-alert/article279882984.html",
             //    //    Snippet = "California Gov. Gavin Newsom should call a special session of the Legislature in order to suspend the state's gas tax, Republican lawmakers...",
             //    //},
@@ -375,7 +375,7 @@ namespace YourNamespace
             //    //{
             //    //    Title = "California gas prices continue to rise; expert explains the causes",
             //    //    Link = "https://krcrtv.com/news/local/california-gas-prices-continue-to-rise-expert-explains-the-causes",
-            //    //    Snippet = "NORTHSTATE, Calif. — Gas prices continue to climb across California. The state average for gas is now above $6, according to AAA; that's the...",
+            //    //    Snippet = "NORTHSTATE, Calif. ï¿½ Gas prices continue to climb across California. The state average for gas is now above $6, according to AAA; that's the...",
             //    //},
             //};
 
