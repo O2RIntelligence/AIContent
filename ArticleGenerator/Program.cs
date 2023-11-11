@@ -248,21 +248,47 @@ namespace YourNamespace
 
 
             prompt = $@"
-               Rewrite a comprehensive and engaging article using the provided details, ensuring it's optimized for online readers and search engines.
-            
-               Content Requirements:
-               Keyword Inclusion: Incorporate the keyword into the title and headings.
-               Content Structure: Ensure readability, with a minimum limit of 2000 words.
-               Visual Content: Include relevant images (with proper copyrights) and videos (either AI-generated or sourced with proper copyrights).
-               URL: Maintain a clean, readable, and keyword-rich structure.
-               Links: Add valuable internal and external links.
-               Instructions:
-               Language: en-US
-               input 1 image and 1 video tag to relevant position. 
-               image tag and video tag have got `descrption` attribute.
-               add detailed description concerned with the article to <img> and <iframe> tag as decription attribute. 
-               when displaying video, must use <iframe> tag.
-               and image and video's width must be 400px.
+               Title and Headings
+Craft a title that naturally incorporates the keyword, ensuring it is captivating and informative. Structure your headings (using <h2>, <h3>, etc.) to also include the keyword where relevant, which will contribute to better search engine visibility.
+
+Content Structure
+The article should be at least 2000 words to meet the minimum word count requirement. Break down the content into manageable sections with subheadings to enhance readability. Utilize short paragraphs, bullet points, and numbered lists where applicable.
+
+Using the title and related articles, the article will be adapted to wordpress with wordpress tags like this structure\r\nwp:paragraph <!-- wp:heading-- >\r\n                < h2 class=\"\"wp-block-heading\"\">T header</h2>\r\n                <!-- /wp:heading -->\r\n\r\n                <!-- wp:paragraph -->\r\n                <p> content</p>\r\n                <!-- /wp:paragraph →
+
+
+Visual Content
+Incorporate relevant images and videos that complement the text. For images, use the <img> tag with a description attribute providing a detailed caption. For videos, embed them using the <iframe> tag with the same approach to descriptions. Ensure both elements are set to a width of 400px to maintain a consistent layout.
+
+URL Structure
+Ensure the article's URL is clean, readable, and contains the primary keyword. This will help with search engine ranking and user experience.
+
+Links
+Strategically place internal links to other pages on your site and external links to authoritative sources. This adds value for readers and can improve SEO.
+
+Language and Coding
+The article should be written in American English (en-US). When adapting the content for WordPress, use tags like <h2> for subheadings and <p> for paragraphs to format the text properly.
+
+Provided Titles and Reference Articles
+Use the provided titles and reference articles as a foundation for your piece. Draw inspiration from them to ensure the content is unique and engaging.
+
+Tags
+Extract tags from the content that are relevant to the article's theme. Place these tags at the end of the article, signaling their importance for search visibility.
+
+Image and Video Tags Example:
+For images:
+
+html
+Copy code
+<img src="URL_to_image.jpg" width="400px" description="Detailed description of the image related to the article's theme." />
+For videos:
+
+html
+Copy code
+<iframe src="URL_to_video" width="400px" description="Detailed description of the video content, ensuring relevance to the article's theme." ></iframe>
+Expected Outputs
+Finally, generate an article that adheres to WordPress 
+
                Provided Titles:
                {titles}
 
